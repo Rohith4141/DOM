@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<script>
+    var img1 = document.createElement("img")
+
+    document.body.append(img1)
+
+    var btn = document.createElement("button")
+    btn.innerText=("html")
+    document.body.append(btn)
+
+    var btn1 = document.createElement("button")
+    btn1.innerText=("css")
+    document.body.append(btn1)
+
+    var btn2 = document.createElement("button")
+    btn2.innerText=("javascript")
+    document.body.append(btn2)
+
+    var btn3 = document.createElement("button")
+    btn3.innerText=("react")
+    document.body.append(btn3)
+
+    btn.addEventListener("click",function()
+{
+    img1.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxThFWKreyc-ZQyMNjYEcKQlHHx6oaY1W8jA&s"
+})
+btn1.addEventListener("click",function(){
+    img1.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx23Ay7DJERV_HeW-VEVoj34SL_HYIGdkdRQ&s"
+})
+btn2.addEventListener("click",function(){
+    img1.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAXaZgOP8Dt5J05vGncrxXkY6VJKoi1_lsFw&s"
+})
+btn3.addEventListener("click",function(){
+    img1.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJ5SAXMVw9GlgSCYmwG-Nf_-fRfC94k0W7pw&s"
+})
+    
+
+</script>
+</body>
+</html>
